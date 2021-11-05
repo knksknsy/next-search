@@ -1,0 +1,13 @@
+{
+  "name": "get-search-results",
+  "version": "0.0.1",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "azure-cognitiveservices-websearch": "^2.0.0",
+    "ms-rest-azure": "^3.0.0",
+    "dotenv": "^8.2.0"
+  }
+}
+

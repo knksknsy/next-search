@@ -1,0 +1,9 @@
+Deploy each cloud function with the respective line:
+
+gcloud functions deploy getKeywords --trigger-http --region=europe-west2 --runtime=nodejs8 --entry-point=getKeywords --service-account=nextsearchserviceaccount-260@astute-ace-258315.iam.gserviceaccount.com
+gcloud functions deploy getSearchResults --trigger-http --region=europe-west2 --runtime=nodejs8 --entry-point=getSearchResults
+gcloud functions deploy checkObjectStorage --trigger-http --region=europe-west2 --runtime=nodejs8 --entry-point=checkObjectStorage
+gcloud functions deploy fetchWebPage --trigger-http --region=europe-west2 --runtime=nodejs8 --entry-point=fetchWebPage
+gcloud functions deploy filterWebPage --trigger-http --region=europe-west2 --runtime=nodejs8 --entry-point=filterWebPage --memory=2048MB
+gcloud functions deploy groupContent --trigger-http --region=europe-west2 --runtime=nodejs8 --entry-point=groupContent
+gcloud functions deploy contentToHtml --trigger-http --region=europe-west2 --runtime=nodejs8 --entry-point=contentToHtml

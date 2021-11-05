@@ -1,0 +1,12 @@
+{
+  "name": "fetch-web-page",
+  "version": "0.0.1",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.8",
+    "request-promise": "^4.2.5",
+    "dotenv": "^8.2.0"
+  }
+}
+

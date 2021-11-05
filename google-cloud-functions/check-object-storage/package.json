@@ -1,0 +1,12 @@
+{
+  "name": "check-object-storage",
+  "version": "0.0.1",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "ibm-cos-sdk": "^1.6.0",
+    "dotenv": "^8.2.0"
+  }
+}
+
