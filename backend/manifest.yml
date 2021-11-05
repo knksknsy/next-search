@@ -1,0 +1,5 @@
+applications:
+- name: cloudFoundrySearchApp
+  memory: 256M
+  command: npm run prod
+  buildpack: sdk-for-nodejs
