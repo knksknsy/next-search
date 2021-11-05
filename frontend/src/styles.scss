@@ -1,0 +1,55 @@
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color:#efefef;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: white;
+  margin-top: 10px;
+  border: 1px solid;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s ease all;
+  &:hover {
+    background-color: black;
+    color: white;
+  }
+}
+
+.makeSmaller {
+  bottom: calc(100% - 170px) !important;
+}
+
+.showLoadingSpinner {
+  display: block !important;
+}
+
+a {
+  color: #7b00ff;
+}
+
+.swal2-popup {
+  width: 80% !important;
+  padding: 50px 20px !important;
+  button {
+    background-color: #a025af !important;
+    border-color: #a025af !important;
+    &:focus {
+      box-shadow: none !important;
+    }
+  }
+}
+
+@media screen and (max-width:450px) {
+  .input-wrapper {
+    width: 100% !important;
+    min-width: unset !important;
+  }
+}

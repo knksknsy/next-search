@@ -1,0 +1,6 @@
+applications:
+- name: cloudFoundrySearchApp
+  buildpack: staticfile_buildpack
+  host: cloudFoundrySearchApp
+  memory: 256M
+  path: ./dist/nextsearch-frontend
